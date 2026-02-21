@@ -9,6 +9,9 @@ public class Fibonacci {
         int n=sc.nextInt();
         int a=0;
         int b=1;
+        if(n==0){
+            System.out.println(n);
+        }
         for(int i=0;i<n;i++){
             System.out.print(a +" ");
             int temp=a+b;
