@@ -21,7 +21,7 @@ public class Anagrm_Num {
         return true;
     }
     public static void main(String[] args) {
-        System.out.println(isAnagram("a1b2", "2b12a")); // true
+        System.out.println(isAnagram("a1b2", "2b1a")); // true
         
     }
 }

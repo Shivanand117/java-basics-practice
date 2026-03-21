@@ -3,7 +3,7 @@ package Arrays;
 public class CheckArraysEqual {
     public static void main(String[] args) {
 
-        int arr1[] = {1,5,3};
+        int arr1[] = {1,2,3};
         int arr2[] = {1,2,3};
 
         boolean equal = true;

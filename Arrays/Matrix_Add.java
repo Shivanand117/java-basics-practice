@@ -3,8 +3,14 @@ import java.util.*;
 public class Matrix_Add {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int [][]m1=new int[2][2];
-        int [][]m2=new int[2][2];
+        System.out.println("Enter row and col size for m1");
+        int R1=sc.nextInt();
+        int C1=sc.nextInt();
+        System.out.println("Enter  row and col size for m1");
+        int R2=sc.nextInt();
+        int C2=sc.nextInt();
+        int [][]m1=new int[R1][C1];
+        int [][]m2=new int[R2][C2];
         int [][]m3=new int[2][2];
         System.out.println("Enter first Matrix elements: ");
 

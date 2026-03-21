@@ -8,7 +8,6 @@ class Circle{
 
     }
 }
-
 public class Circ {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);

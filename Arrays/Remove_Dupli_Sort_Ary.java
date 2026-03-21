@@ -2,7 +2,7 @@ package Arrays;
 
 public class Remove_Dupli_Sort_Ary {
     public static void main(String[] args) {
-        int arr[]={1, 1, 2, 2, 3};
+        int arr[]={1, 1, 2, 2,3,3};
 
         int j=0;
         for(int i=1;i<arr.length;i++){

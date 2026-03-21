@@ -27,7 +27,7 @@ public class Dynamic_Methd_Dispth {
         // p.greet();
         // p.on();
         Phone p=new Smartphone(); //yes it is allowed
-      //  p.music();
+      //  p.music();not allowed
         p.on();
         p.showtime();
 

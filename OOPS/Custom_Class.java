@@ -16,19 +16,21 @@ public int getsalary(){
 public class Custom_Class {
     public static void main(String[] args) {
         System.out.println("This is our custom class");
-        // Employee e=new Employee();
-        // e.id=17;
-        // e.name="Harry";
-        // e.salary=12000;
-        // e.printdetails();
+        Employee e=new Employee();
+        e.id=17;
+        e.name="Harry";
+        e.salary=12000;
+        // e.getSalary();
+         e.printdetails();
+         System.out.println(e.getsalary());
 
-        Employee r=new Employee();
-        r.id=18;
-        r.name="Virat";
-        r.salary=15000;
-        r.printdetails();
-        int salary=r.getsalary();
-        System.out.println(salary);
+        // Employeee r=new Employeee();
+        // r.id=18;
+        // r.name="Virat";
+        // r.salary=15000;
+        // r.printdetails();
+        // int salary=r.getsalary();
+        // System.out.println(salary);
 
         
     }
