@@ -2,7 +2,7 @@ package Arrays;
 
 public class Second_Largest {
     public static void main(String[] args) {
-        int []arr={10,10,8};
+        int []arr={10,9,8,123,54,48};
 
         int first =Integer.MIN_VALUE;
         int second=Integer.MIN_VALUE;
