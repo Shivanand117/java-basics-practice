@@ -19,6 +19,5 @@ public class Remo_Duplct_Hashst {
     }
     public static void main(String[] args) {
         System.out.println(removeduplicate("Programming"));
-        
     }
 }
