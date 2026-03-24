@@ -13,6 +13,7 @@ public class SubstringSearch {
             for(j = 0; j < m; j++){
 
                 if(text.charAt(i + j) != pattern.charAt(j)){
+
                     break;
                 }
             }
@@ -20,6 +21,7 @@ public class SubstringSearch {
             if(j == m){
                 return i;   // match found
             }
+        
         }
 
         return -1;  // not found
