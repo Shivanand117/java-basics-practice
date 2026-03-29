@@ -9,7 +9,7 @@ public class First_Repeaiting {
         for(char ch:str.toCharArray()){
             count[ch-'a']++;
         }
-        //find first non repeating
+        //find first  repeating
         for(char ch:str.toCharArray()){
             if(count[ch-'a']>1){
                 return ch;
