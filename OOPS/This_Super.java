@@ -26,9 +26,10 @@ class Doclass extends EkClass{
 
 public class This_Super {
     public static void main(String[] args) {
-        EkClass e=new EkClass(4);
-        Doclass d=new Doclass(5);
+        EkClass e=new EkClass(4);//parents class
+       // Doclass d=new Doclass(5);//child class
         System.out.println(e.getA());
+
         
     }
 }
