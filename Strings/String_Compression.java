@@ -20,7 +20,7 @@ public class String_Compression {
         return result.toString();
     }
     public static void main(String[] args) {
-        System.out.println(compresseion("aaabb"));
+        System.out.println(compresseion("aabba"));
         
     }
 }
