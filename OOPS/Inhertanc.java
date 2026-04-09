@@ -15,7 +15,6 @@ class Base{
 }
 class Derived extends Base{
     public int y;
-
     public int getY() {
         return y;
     }
