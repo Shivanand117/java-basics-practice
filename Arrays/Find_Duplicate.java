@@ -6,6 +6,7 @@ public class Find_Duplicate {
 
         for(int i=0;i<arr.length;i++){
             boolean isalrdyPrinted =false;//--->vert importat loigic
+            
 //it checks whethe this number is already printed before or not 
         for(int k=0;k<i;k++){
             if(arr[i]==arr[k]){
