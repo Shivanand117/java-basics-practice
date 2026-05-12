@@ -16,7 +16,7 @@ public class Find_Duplicate {
         }
         if(isalrdyPrinted)
             continue;
-
+                                            
         //it checks duplicate in remaining array 
         for(int j=i+1;j<arr.length;j++){
             if(arr[i]==arr[j]){
