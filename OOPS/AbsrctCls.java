@@ -29,7 +29,7 @@ public class AbsrctCls {
 		Cat c=new Cat();
 		Lion l=new Lion();
 		c.eat();l.eat();
-
+		
 	}
 
 }
