@@ -14,7 +14,18 @@ public class RemoveGenPrim {
         //remove(int index)
         a1.remove(4);
         System.out.println(a1);
-        
+
+        ArrayList<Integer>a2=new ArrayList<>();
+        a2.add(10);
+        a2.add(20);
+        a2.add(50);
+        System.out.println(a2);
+
+        // a1.removeAll(a2);
+        // System.out.println(a1);
+
+        a1.retainAll(a2);
+        System.out.println(a1);
 
     }
 }
