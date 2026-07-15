@@ -38,7 +38,7 @@ class DoublyLinkedlist{
     size++;
    }
 
-   public void allLast(int data){
+   public void addLast(int data){
     Node newNode=new Node(data);
     if(head==null){
         head=newNode;
@@ -103,8 +103,46 @@ public void deleteLast(){
 
         size--;
 }
-
+public boolean search(int key){
+    Node temp=head;
+    while(temp!=null){
+        if(temp.data==key){
+            return true;
+        }
+        temp=temp.next;
+    }
+    return false;
 }
+
+public void inseertAtPosition(int pos,int data){
+    if(pos<1 || pos>size+1){
+        System.out.println("Invalid Position");
+        return;
+    }
+    if(pos==1){
+        addFirst(data);
+        return;
+    }
+    if(pos==size+1){
+        addLast(data);
+        return;
+    }
+    Node temp=head;
+
+    for(int i=1;i<pos-1;i++){
+        temp=temp.next;
+    }
+    Node newNode =new Node(data);
+    newNode.next=temp.next;
+    newNode.prev=temp;
+
+    temp.next.prev=newNode;
+    temp.next=newNode;
+
+    size++;
+}
+}
+
 
 
 public class DoublyLinkedList {
