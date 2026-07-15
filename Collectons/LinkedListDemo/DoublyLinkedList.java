@@ -74,6 +74,36 @@ public void displayBackward(){
     }
     System.out.println();
 }
+
+//delete first
+public void deleteFirst(){
+    if(head==null){
+        System.out.println("List is Empty");
+        return;
+    }
+    if(head==tail)
+        head=tail=null;
+    else
+        head=head.next;
+       head.prev=null;
+       size--;
+}
+//deletelast method
+
+public void deleteLast(){
+    if(head==null){
+        System.out.println("List is empty");
+        return;
+    }
+    if(head==tail)
+        head=tail=null;
+    else
+        tail=tail.prev;
+        tail.next=null;
+
+        size--;
+}
+
 }
 
 
