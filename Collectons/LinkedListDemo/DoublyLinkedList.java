@@ -141,9 +141,8 @@ public void inseertAtPosition(int pos,int data){
 
     size++;
 }
+
 }
-
-
 
 public class DoublyLinkedList {
     public static void main(String[] args) {
