@@ -40,7 +40,7 @@ public class SwimInRisingWater {
 
             // Destination reached
             if (row == n - 1 && col == n - 1) {
-                return time;
+                return time; 
             }
 
             // Visit neighbours
